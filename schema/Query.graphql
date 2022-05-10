@@ -1,0 +1,8 @@
+ # import Book from 'Book.graphql'
+ # import User from 'User.graphql'
+ 
+  type Query {
+    books: [Book]
+    users: [User]
+    user(id: Int): User
+  }

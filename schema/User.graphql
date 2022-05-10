@@ -1,0 +1,10 @@
+ # import Course from 'Course.graphql'
+
+  type User {
+    id: ID!
+    name: String!
+    photo: String
+    biography: String
+    courses: [Course]
+  }
+
