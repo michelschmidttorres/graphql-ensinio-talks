@@ -1,6 +1,7 @@
 # graphql-ensinio-talks
 
-# Start Project
+How to start Project
+
 yarn
 
 node index.js
